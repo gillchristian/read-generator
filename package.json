@@ -1,0 +1,19 @@
+{
+  "name": "read-generator",
+  "version": "1.0.0",
+  "main": "read-generator.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "xo '*.js'"
+  },
+  "author": "gillchristian",
+  "license": "MIT",
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false
+  },
+  "devDependencies": {
+    "xo": "^0.16.0"
+  }
+}
